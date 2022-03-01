@@ -5,12 +5,40 @@
     margin:0 auto;
 }
 
+@keyframes jumpingBall{
+
+    0%{
+        transform: translateY(40px);
+    }
+    50%{
+        transform: translateY(160px);
+        height: 40px;
+        width: 50px;
+    }
+    100%{
+        transform: translateY(280px);
+        height: 20px;
+        width: 50px;
+    }
+    
+}
+
 
 .ball{
     background-color:#eb2bab;
     height: 50px;
     width: 50px;
     margin: 0 auto;
-    transform: translateY(80%);
+    transform: translateY(40px);
+    border-radius:50%;
+    animation: jumpingBall infinite 0.5s both;
+}
+
+.ball-shadow{
+    background-color:#7c797b9f;
+    height: 20px;
+    width: 50px;
+    margin: 0 auto;
+    transform: translateY(275px);
     border-radius:50%;
 }
