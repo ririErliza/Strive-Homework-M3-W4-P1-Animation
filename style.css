@@ -1,0 +1,16 @@
+.container{
+    background-color: #94bbde;
+    height: 400px;
+    width: 400px;
+    margin:0 auto;
+}
+
+
+.ball{
+    background-color:#eb2bab;
+    height: 50px;
+    width: 50px;
+    margin: 0 auto;
+    transform: translateY(80%);
+    border-radius:50%;
+}
