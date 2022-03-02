@@ -14,16 +14,16 @@
     25%{
         
         height: 50px;
-        width: 40px;
+        width: 50px;
     }
     50%{
         /* transform: translateY(200px); */
         height: 40px;
-        width: 55px;
+        width: 50px;
     }
     75%{
         transform: translateY(280px);
-        height: 50px;
+        height: 30px;
         width: 55px;
     }
     100%{
@@ -40,7 +40,7 @@
     margin: 0 auto;
     transform: translateY(40px);
     border-radius:50%;
-    animation: jumpingBall 0.65s infinite;
+    animation: jumpingBall 0.75s infinite;
 }
 
 .ball-shadow{
